@@ -1,0 +1,29 @@
+Luna Beauty Proje Raporu
+Hazırlayan: Medine Zeytinci
+Proje Adı: Luna Beauty - Kozmetik ve Doğal Cilt Bakım Tanıtım & E-Ticaret Sitesi
+Kullanılan Teknolojiler: HTML5, CSS3
+
+1. Projenin Amacı
+
+Bu projenin amacı, doğal, vegan ve temiz içerikli kozmetik ürünleriyle ilgilenen kullanıcılar için basit, şık ve bilgilendirici bir web sitesi oluşturmaktır. Site sadece ürünleri göstermekle kalmaz, aynı zamanda markanın amacı ve cilt bakım anlayışı hakkında da bilgi verir.
+
+2. Tasarım Özellikleri
+Sade Tasarım: Site, karmaşık olmayan ve kolay anlaşılır bir yapıda hazırlanmıştır.
+Renk Seçimi: Temizlik ve ferahlığı yansıtmak için mavi (#5081cc) ve beyaz renkler kullanılmıştır. Butonlarda dikkat çekmesi için geçişli (gradient) mavi tonları tercih edilmiştir.
+Kullanıcı Deneyimi: Kullanıcıların istedikleri sayfaya kolay ulaşabilmesi için menüler basit tutulmuştur.
+3. Site Sayfaları
+
+Proje toplam 5 sayfadan oluşmaktadır:
+
+Ana Sayfa (index.html): Siteye giriş sayfasıdır. En çok satılan 4 ürün burada gösterilir.
+Hakkımızda (hakkimizda.html): Markanın hikayesi ve amaçları anlatılır.
+Ürünler (urunler.html): Tüm ürünler listelenir.
+Rutin (rutin.html): Günlük cilt bakım adımları anlatılır (temizleme, tonik, serum, koruma).
+İletişim (iletisim.html): Adres ve iletişim formu bulunur.
+4. Teknik Bilgiler
+
+Projede hazır tasarım kütüphaneleri (Bootstrap vb.) kullanılmamıştır. Tüm tasarım HTML ve CSS ile sıfırdan yapılmıştır. Sayfa düzeni için Flexbox kullanılmıştır. Ürün görselleri internet üzerinden alınarak siteye eklenmiştir.
+
+5. Sonuç
+
+Proje tamamlanmış ve tüm sayfalar sorunsuz çalışmaktadır. Site tasarımı uyumludur ve linkler aktif şekilde çalışır. Proje Github’a yüklenmiş ve teslim için hazır hale getirilmiştir.

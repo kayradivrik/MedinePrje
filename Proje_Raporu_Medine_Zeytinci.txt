@@ -1,0 +1,33 @@
+Luna Beauty Proje Raporu
+
+Hazırlayan: Medine Zeytinci
+Proje Adı: Luna Beauty - Kozmetik ve Doğal Cilt Bakım Tanıtım & E-Ticaret Sitesi
+Teknolojiler: HTML5, CSS3
+
+--------------------------------------------------
+
+1. Projenin Amacı ve Hedefi
+Luna Beauty projesinin temel amacı; çevreye duyarlı, %100 vegan ve temiz içerikli kozmetik ürünlerine ilgi duyan kullanıcılar için bilgilendirici, modern ve sade bir web arayüzü sunmaktır. Bu doğrultuda, projenin sadece ürünleri listelemekle kalmayıp markanın amacını, bakım felsefesini ve iletişimini de sağlayacak kurumsal bir yapı barındırması amaçlanmıştır.
+
+2. Tasarım Prensipleri
+Sade ve Anlaşılır Yapı: Karmaşık kod yapılarından kaçınılarak öğrenci seviyesinde sürdürülebilir, okuması kolay (temel HTML/CSS) yapı kullanılmıştır.
+Renk Paleti: Temizliğin, suyun ve saflığın birleşimi olarak ferah bir "Mavi" (#5081cc) renk tonu ve temiz beyaz zemin üzerine kurulmuştur. Butonlarda şık bir mavi renk geçişi (gradient) tercih edilerek sitenin odak noktaları vurgulanmış ve daha canlı bir hava elde edilmiştir.
+Kullanıcı Deneyimi (UX): Ziyaretçilerin doğrudan hedef ürünlerine ulaşabilmesi için menü ve etkileşim bileşenleri basit tutulmuştur.
+
+3. Web Sitesi Sayfaları
+Proje toplamda 5 ana sayfadan (HTML) oluşmaktadır ve tüm tasarım işlemleri tek bir style.css dosyasında toplanmıştır.
+- index.html (Ana Sayfa): Ziyaretçiyi karşılayan büyük bir kapak görseli alanı mevcuttur. Ardından markanın en çok satan 4 ürünü fotoğrafları ve fiyatlarıyla listelenir.
+- hakkimizda.html: Sürdürülebilirlik felsefesi ve markanın kuruluş hikayesini barındıran bilgi alt sayfasıdır.
+- urunler.html: Luna Beauty içerisindeki tüm ürünler kategori kartları ile birlikte geniş bir şekilde listelenir.
+- rutin.html: Kullanıcılara arındırma, tonikleme, serum ve koruma adımlarından oluşan bir günlük cilt bakım rutinini açıklayıcı görseller eşliğinde sıralı olarak sunar.
+- iletisim.html: Ziyaretçilerin firma bilgileri, adresi (Okyanus Cad. Mavi Plaza) ve form aracılığıyla e-posta gönderebileceği temas sayfasıdır.
+
+4. Teknik Altyapı
+Projede harici hiçbir CSS kütüphanesi (Bootstrap, Tailwind css vb.) ve hazır şablon yapısı KULLANILMAMIŞTIR. Tasarım CSS3 diliyle, standart layout teknikleri (Flexbox) ile sıfırdan yazılmıştır. Sitenin ürün vitrinlerinde, yüksek kaliteli gerçek kozmetik ürünü fotoğrafları dış bağlantılarla sisteme entegre edilerek modern bir görünüm yakalanmıştır.
+
+5. Sonuç
+Proje başarıyla kodlanıp her sayfası birbiriyle tutarlı olacak şekilde derlenmiştir. Başlıklar ve geçiş bağlantıları (linkler) tamamen çalışır halde olmak üzere "Luna Beauty" markası doğrultusunda revize edilmiş ve tüm dosyalar okul/ders teslimine uygun şekilde son halini almıştır. Proje kodları güncel olarak Github reposuna aktarılarak kullanıma sunulmuştur.
+
+--------------------------------------------------
+Medine Zeytinci
+(Proje Geliştiricisi)
