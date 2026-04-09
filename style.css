@@ -1,0 +1,437 @@
+/* =========================================
+   Basit, Şık ve Mavi Ağırlıklı Stil
+   ========================================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+    background-color: #f0f7ff;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #0056b3;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-menu ul {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-menu a {
+    color: #e0e0e0;
+    font-weight: 500;
+}
+
+.header .btn-primary {
+    background-color: #ffffff;
+    color: #0056b3;
+    border: 1px solid #ffffff;
+}
+
+.btn-primary,
+.btn-secondary,
+.btn-outline {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #74a0eb 0%, #3b66a8 100%);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.btn-secondary {
+    background: white;
+    color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-outline {
+    background: white;
+    color: #1f2a35;
+    border: 1px solid #0056b3;
+    width: 100%;
+}
+
+.link-arrow {
+    display: inline-block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #e3f2fd;
+    padding: 60px 0;
+    text-align: center;
+    border-bottom: 2px solid #0056b3;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #0056b3;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.image-placeholder {
+    margin-top: 40px;
+}
+
+.image-placeholder img {
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 86, 179, 0.15);
+}
+
+.features {
+    padding: 60px 0;
+    background-color: white;
+}
+
+.features-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.feature-card {
+    flex: 1;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #f0f7ff;
+}
+
+.feature-card h3 {
+    margin-bottom: 15px;
+    color: #0056b3;
+}
+
+.products {
+    padding: 60px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-title h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #0056b3;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+.product-card {
+    background: white;
+    width: 22%;
+    min-width: 220px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0, 86, 179, 0.1);
+    border: 1px solid #cce5ff;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    background-color: #e9ecef;
+    display: block;
+    margin-bottom: 0;
+
+
+
+
+}
+
+.product-info {
+    padding: 20px;
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-info h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #0056b3;
+    font-weight: 600;
+}
+
+.product-info .price {
+    font-weight: bold;
+    color: #0d6efd;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+/* Hakkımızda */
+.about {
+    padding: 60px 0;
+    background-color: white;
+    text-align: center;
+    border-top: 2px solid #0056b3;
+    border-bottom: 2px solid #0056b3;
+}
+
+.about-text h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #0056b3;
+}
+
+.about-text p {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Footer */
+.footer {
+    background-color: #003366;
+    color: white;
+    padding: 50px 0 20px;
+}
+
+.footer-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.footer a {
+    color: #cce5ff;
+}
+
+.footer h4 {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #0056b3;
+    padding-bottom: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #0056b3;
+    font-size: 14px;
+    color: #cce5ff;
+}
+
+.newsletter-form {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.newsletter-form input {
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: none;
+    flex: 1;
+}
+
+/* Alt Sayfalar İçin */
+.page-header {
+    background-color: #0056b3;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.page-header h1 {
+    color: white;
+}
+
+.page-header p {
+    color: #e0e0e0;
+}
+
+.about-detailed {
+    padding: 50px 0;
+}
+
+.about-detailed h3 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #0056b3;
+}
+
+.categories {
+    text-align: center;
+    margin: 20px 0 40px 0;
+}
+
+.cat-btn {
+    padding: 8px 16px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid #0056b3;
+    background: transparent;
+    color: #0056b3;
+}
+
+.cat-btn.active {
+    background-color: #0056b3;
+    color: white;
+}
+
+.routine-steps .step-card {
+    border: 1px solid #cce5ff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #f0f7ff;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.step-image img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.step-number {
+    font-size: 20px;
+    font-weight: bold;
+    color: #5081cc;
+    margin-bottom: 5px;
+}
+
+.contact-page {
+    display: flex;
+    gap: 30px;
+    padding: 50px 0;
+}
+
+.contact-form,
+.contact-info {
+    flex: 1;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 86, 179, 0.1);
+    border: 1px solid #cce5ff;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #0056b3;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+/* Mobil Uyum */
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .features-grid {
+        flex-direction: column;
+    }
+
+    .product-card {
+        width: 45%;
+    }
+
+    .contact-page {
+        flex-direction: column;
+    }
+
+    .footer-grid {
+        flex-direction: column;
+    }
+
+    .routine-steps .step-card {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .product-card {
+        width: 100%;
+    }
+}
